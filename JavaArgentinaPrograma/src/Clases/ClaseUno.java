@@ -8,21 +8,21 @@ public class ClaseUno {
 		//Ejercicio a
 		int a = 1, b = 15, eleccion = 0;
 		Scanner in = new Scanner(System.in);
-		/*System.out.println("Ejercicio a:");
+		System.out.println("Ejercicio a:");
 		while(a <= b) {
 			System.out.print(a + ", ");
 			a++;
 		}
 		System.out.println("");
-		System.out.println("***************************************************");*/
+		System.out.println("***************************************************");
 		
 		//Ejercicios b y c
 		a = 1;
 		b = 15;
-		/*System.out.println("Ejercicios b y c:");
+		System.out.println("Ejercicios b y c:");
 		
-		System.out.println("Si desea mostrar lon números pares presione 1");
-		System.out.println("Si desea mostrar los números impares presione 2");
+		System.out.println("Si desea mostrar lon números pares presione 1:");
+		System.out.println("Si desea mostrar los números impares presione 2:");
 		eleccion = in.nextInt();
 
 		if(eleccion == 1) {
@@ -45,24 +45,28 @@ public class ClaseUno {
 				a++;
 			}
 		}
+		
 		System.out.println("");
-		System.out.println("*****************************************************");*/
+		System.out.println("*****************************************************");
 		
 		//Ejercicio d
-		/*a = 1;
+		a = 1;
 		b = 15;
 		System.out.println("Ejercicio d:");
 		for(int i = b; i >= a; i--) {
 			if(i % 2 == 0) {
 				System.out.print(i + ", ");
 			}
-		}*/
+		}
+		System.out.println("");
+		System.out.println("******************************************************");
 		
 		//Ejercicio N° 2
+		System.out.println("Ejercicio Nª 2");
 		System.out.println("Cálculo de categoria Monotributo");
 		int superficie = 0, energia = 0;
 		float ingresos = 0;
-		System.out.println("");
+		
 		System.out.println("Ingrese el monto de sus ingresos sin comas ni puntos:");
 		ingresos = in.nextFloat();
 		System.out.println("Ingrese la superficie del local:");
